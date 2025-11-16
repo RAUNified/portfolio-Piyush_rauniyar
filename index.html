@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piyush Rauniyar - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="header-left">
+                <h1 class="logo">Piyush Rauniyar</h1>
+            </div>
+            <nav class="navbar-inline">
+                <ul class="nav-list">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>Welcome to my portfolio! I'm a passionate web developer with a focus on creating beautiful, responsive websites. I enjoy learning new technologies and building projects that make an impact.</p>
+                <p>My skills include HTML, CSS, JavaScript, and web design principles. I'm committed to writing clean, maintainable code and delivering exceptional user experiences.</p>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="projects-list">
+                    <!-- Project 1 -->
+                    <article class="project-item">
+                        <div class="project-preview">
+                            <img src="images/project1.png" alt="Project 1 Screenshot" class="project-preview-image">
+                        </div>
+                        <div class="project-details">
+                            <div class="project-header">
+                                <h3 class="project-title">Weather Search Application</h3>
+                                <span class="project-year">📅 2024</span>
+                            </div>
+                            <p class="project-description">A comprehensive weather application that fetches real-time data from PHP using OpenWeatherMap API. Features include temperature tracking, pressure monitoring, humidity levels, and wind speed analysis for any city worldwide. Data is intelligently cached for up to 2 hours to optimize performance.</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML5</span>
+                                <span class="tag">CSS3</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">PHP</span>
+                                <span class="tag">MySQL</span>
+                                <span class="tag">OpenWeatherMap API</span>
+                            </div>
+                            <div class="project-buttons">
+                                <a href="https://piyushrauniyarweather.infinityfreeapp.com/?i=1" target="_blank" rel="noopener" class="btn-primary">🔗 Live Demo</a>
+                                <a href="https://github.com/RAUNified/weather-app" target="_blank" rel="noopener" class="btn-secondary"><img class="btn-github-icon" src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="GitHub">Source Code</a>
+                                
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-item">
+                        <div class="project-preview">
+                            <img src="images/project2.png" alt="Project 2 Screenshot" class="project-preview-image">
+                        </div>
+                        <div class="project-details">
+                            <div class="project-header">
+                                <h3 class="project-title">Project 2</h3>
+                                <span class="project-year">📅 2024</span>
+                            </div>
+                            <p class="project-description">Description for your second project goes here. Highlight the technologies used and the key features of your application.</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML5</span>
+                                <span class="tag">CSS3</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                            <div class="project-buttons">
+                                <a href="#" class="btn-primary">🔗 Live Demo</a>
+                                <a href="#" class="btn-secondary"><img class="btn-github-icon" src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="GitHub">Source Code</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-item">
+                        <div class="project-preview">
+                            <img src="images/project3.png" alt="Project 3 Screenshot" class="project-preview-image">
+                        </div>
+                        <div class="project-details">
+                            <div class="project-header">
+                                <h3 class="project-title">Project 3</h3>
+                                <span class="project-year">📅 2024</span>
+                            </div>
+                            <p class="project-description">Description for your third project goes here. Share what you learned from building this project and the technologies involved.</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML5</span>
+                                <span class="tag">CSS3</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                            <div class="project-buttons">
+                                <a href="#" class="btn-primary">🔗 Live Demo</a>
+                                <a href="#" class="btn-secondary"><img class="btn-github-icon" src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="GitHub"> Source Code</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <p>I'd love to hear from you! Feel free to send me a message using the form below.</p>
+                <form class="contact-form" action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Piyush Rauniyar. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
